@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-def uniq_add(my_list=[]):
-    unique_nums = set()
-    total = 0
-
-    for num in my_list:
-        if num not in unique_nums:
-            total += num
-            unique_nums.add(num)
-
-    return total
+def search_replace(my_list, search, replace):
+    new_list = list(map(lambda x: replace if x == search else x, my_list))
+    return (new_list)
