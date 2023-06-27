@@ -1,5 +1,3 @@
-vi 3-safe_print_division.py
-
 #!/usr/bin/python3
 
 
